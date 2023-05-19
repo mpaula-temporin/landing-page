@@ -158,6 +158,44 @@
     text-align: center;
     margin-top: 20px;
   }
+  .contact-us{
+    background-color: var(--nav);
+    height: 300px;
+    display: flex;
+  }
+  .contact-us-info{
+    background-color: var(--aqcua);
+    width: 800px;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 60px;
+    font-size: 16px;
+    height: 175px;
+  }
+  .contact-us-mail{
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .contact-us-mail:hover{
+    color: var(--midnight);
+  }
+  .contact-us-redes{
+    width: 800px;
+    height: 175px;
+    background-color: var(--aqcua);
+    border-radius: 15px;
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+.contact-us-iconos{
+    background-color: #383B53;
+    width: 400px;
+    height: 80px;
+    
+}
 
 
 
