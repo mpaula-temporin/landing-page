@@ -48,6 +48,9 @@
   .navbar-list a {
       color: #383B53;
   }
+  .navbar-list a:hover{
+    color: var(--violetblue);
+  }
 
   #hero {
       margin-top: 80px;
@@ -131,7 +134,8 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }
   .caja{
     width: 300px;
@@ -142,8 +146,14 @@
     border-radius: 15px;
     align-items: center;
     justify-content: top;
+    padding: 5px;
     background: linear-gradient(90deg, rgb(192, 135, 207) 0%, rgb(63, 181, 205) 42%, rgb(195, 231, 220) 100%);
+    transition: transform 0.3s ease-in-out;
+    cursor:pointer;
   }
+  .caja:hover{
+  transform: translate(0, -10px);
+}
   .card-icono{
     text-align: center;
     margin-top: 35px;
@@ -164,7 +174,7 @@
     display: flex;
   }
   .contact-us-info{
-    background-color: var(--aqcua);
+    ;
     width: 800px;
     border-radius: 15px;
     justify-content: center;
@@ -180,43 +190,42 @@
     cursor: pointer;
   }
   .contact-us-mail:hover{
-    color: var(--midnight);
+    color: var(--violetblue);
   }
   .contact-us-redes{
     width: 800px;
     height: 175px;
-    background-color: var(--aqcua);
     border-radius: 15px;
     margin-top: 60px;
     margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 .contact-us-iconos{
-    background-color: #383B53;
     width: 400px;
     height: 80px;
-    
+    border-radius: 15px;
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    padding: 20px;
 }
-
-
-
- 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.fa-brands{
+  cursor:pointer;
+}
+.fa-brands:hover{
+  color: var(--violetblue);
+}
+.logo-footer{
+  background-color: var(--greyblue);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #C5CBD3;
+}
 
 
   @media (max-width: 620px){
